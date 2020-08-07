@@ -20,7 +20,7 @@ def prime?(integer)
     false 
   else
     (2..integer-1).to_a.all? do |num|
-      integer % num != 0
+      integer % num != 0 #return true if this statement returns true for all elements in the array
     end
   end
 end
